@@ -19,5 +19,5 @@ Formatted data file from kmeans.py was used for libsvm
 
 Commands needed for SVM, assuming libsvm is installed correctly:
 - python3 subset.py -s 1 iris_libsvm.txt 120 train test
-- python3 easy.py train test > output.txt
+- python3 easy.py train test > svm_output.txt
 
