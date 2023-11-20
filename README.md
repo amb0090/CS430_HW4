@@ -16,6 +16,8 @@ K-Means
 
 SVM
 
+Ensure libsvm is installed and set up correctly
+
 Formatted data file from kmeans.py was used for libsvm: iris_libsvm.txt
 
 Move iris_libsvm.txt to libsvm-master/libsvm-master/tools
