@@ -2,7 +2,8 @@
 
 This repo contains the following items:
 - kmeans.py
-- output from kmeans: kmeans_output.txt
+- centroids output from kmeans: kmeans_output.txt
+- formatted data from kmeans: iris_libsvm.txt
 - plot from kmeans: Figure_1.png
 - output from easy.py in libsvm: svm_output.txt
 - plot from gnuplot in libsvm: train.scale.png
@@ -15,9 +16,11 @@ K-Means
 
 SVM
 
-Formatted data file from kmeans.py was used for libsvm
+Formatted data file from kmeans.py was used for libsvm: iris_libsvm.txt
+
+Move iris_libsvm.txt to libsvm-master/libsvm-master/tools
 
 Commands needed for SVM, assuming libsvm is installed correctly:
-- python3 subset.py -s 1 iris_libsvm.txt 120 train test
-- python3 easy.py train test > svm_output.txt
+- python3 libsvm-master/libsvm-master/toolssubset.py -s 1 iris_libsvm.txt 120 train test
+- python3 libsvm-master/libsvm-master/toolseasy.py train test > svm_output.txt
 
