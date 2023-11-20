@@ -12,7 +12,10 @@ K-Means
 - Ensure the correct libraries are installed
 - Enter the following command to run kmeans.py: python3 kmeans.py
 
+
 SVM
+
+Formatted data file from kmeans.py was used for libsvm
 
 Commands needed for SVM, assuming libsvm is installed correctly:
 - python3 subset.py -s 1 iris_libsvm.txt 120 train test
