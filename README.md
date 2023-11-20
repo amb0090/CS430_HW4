@@ -21,6 +21,6 @@ Formatted data file from kmeans.py was used for libsvm: iris_libsvm.txt
 Move iris_libsvm.txt to libsvm-master/libsvm-master/tools
 
 Commands needed for SVM, assuming libsvm is installed correctly:
-- python3 libsvm-master/libsvm-master/toolssubset.py -s 1 iris_libsvm.txt 120 train test
-- python3 libsvm-master/libsvm-master/toolseasy.py train test > svm_output.txt
+- python3 libsvm-master/libsvm-master/tools subset.py -s 1 iris_libsvm.txt 120 train test
+- python3 libsvm-master/libsvm-master/tools easy.py train test > svm_output.txt
 
