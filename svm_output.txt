@@ -1,0 +1,2 @@
+Accuracy = 93.3333% (28/30) (classification)
+Best c=2048.0, g=0.00048828125 CV rate=98.3333
